@@ -1,0 +1,12 @@
+<menu xmlns:thisapp="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        thisapp:showAsAction="always|withText"
+        android:icon="@drawable/navigation_refresh"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/action_reboot"
+        android:title="@string/action_reboot"
+        thisapp:showAsAction="never"
+        android:orderInCategory="2"/>
+</menu>

@@ -1,0 +1,54 @@
+<com.jollakernel.recoveryinstaller.romlistfragment.RomListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageButton android:id="@+id/rom_icon"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:src="@drawable/ic_launcher"
+        android:background="?btnBackgroundBorderless"
+        android:paddingLeft="3dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/rom_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:ellipsize="middle"/>
+
+    <View android:id="@+id/separator"
+        android:layout_height="match_parent"
+        android:layout_width="2dp"
+        android:background="#ccc"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageButton android:id="@+id/rename_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/content_edit"
+        android:background="?btnBackgroundBorderless"
+        android:padding="5dp" />
+
+    <ImageButton android:id="@+id/erase_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/content_discard"
+        android:background="?btnBackgroundBorderless"
+        android:padding="5dp" />
+
+</com.jollakernel.recoveryinstaller.romlistfragment.RomListItem>
