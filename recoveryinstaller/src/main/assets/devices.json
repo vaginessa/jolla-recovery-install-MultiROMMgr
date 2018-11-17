@@ -701,7 +701,7 @@
         },
         {
             "names": [ "joan" ],
-            "manifest_url": "http://zyx.jollaman999.com:19300/jolla-kernel_AIO-joan/MultiROM_Only/manifest.json",
+            "manifest_url": "http://zyx.jollaman999.com:19300/jolla-kernel_AIO-joan/Recovery_Only/manifest.json",
             "check_gpg": false,
             "kexec_check_path": "/sys/kernel/kexec_loaded",
             "ubuntu_touch": {

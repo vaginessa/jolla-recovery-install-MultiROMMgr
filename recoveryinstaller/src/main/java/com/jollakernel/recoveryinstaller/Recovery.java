@@ -34,7 +34,7 @@ import eu.chainfire.libsuperuser.Shell;
 public class Recovery {
     private static final String TAG = "MROMMgr::Recovery";
 
-    public static final DateFormat VER_FMT = new SimpleDateFormat("'jolla'yyyyMMdd-mm");
+    public static final DateFormat VER_FMT = new SimpleDateFormat("'mrom'yyyyMMdd-mm");
     public static final DateFormat DISPLAY_FMT = new SimpleDateFormat("yyyy-MM-dd (m)");
 
     public boolean findRecoveryVersion(Device dev) {
